@@ -17,7 +17,6 @@ public class MyRandom extends Random {
     }
     
 
-    //Take code from lecture SymmetricKeyEncryption Iv3.pdf(page 45,46)
     protected int next(int bits) {
 
         a = (a + 1) % 256;
